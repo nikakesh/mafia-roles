@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel='stylesheet' href='./style.css'>
+    <script src='./app.js' type='module' defer></script>
+
+    <script src='https://kit.fontawesome.com/b5fc49de41.js' crossorigin='anonymous'></script>
+
+</head>
+<body>
+    <h1>აირჩიეთ როლები</h1>
+    <main>
+
+        <section class="roles">
+
+            <div class="role">
+                <p class="roleP">მოქალაქე</p>
+                <input type="number" min="1" max="10" value="3">
+            </div>
+            <div class="role">
+                <p class="roleP">მაფია</p>
+                <input type="number" min="1" max="4" value="2">
+            </div>
+            <div class="role">
+                <p class="roleP">დონი</p>
+                <input type="number" min="0" max="1" value="1">
+            </div>
+            <div class="role">
+                <p class="roleP">ექიმი</p>
+                <input type="number" min="0" max="1" value="1">
+            </div>
+            <div class="role">
+                <p class="roleP">დეტექტივი</p>
+                <input type="number" min="0" max="1" value="1">
+            </div>
+            <div class="role">
+                <p class="roleP">მანიაკი</p>
+                <input type="number" min="0" max="1" value="1">
+            </div>
+
+        </section>
+
+        <section class="buttons">
+
+            <button class="addRole" id="addRole">
+                როლის დამატება 
+                <i class="fa-solid fa-user-plus"></i>
+            </button>
+            <button class="addRole" id="start">
+                დაწყება <i class="fa-solid fa-play"></i>
+            </button>
+
+        </section>
+
+        <div class="newRoles">
+            <h1>დაამატე როლი:</h1>
+            <div class="newRole" data-role="მონადირე">
+                <p class="roleP2">მონადირე</p>
+            </div>
+            <div class="newRole" data-role="შერიფი">
+                <p class="roleP2">შერიფი</p>
+            </div>
+            <div class="newRole" data-role="იაკუძა">
+                <p class="roleP2">იაკუძა</p>
+            </div>
+            <div class="newRole" data-role="აფერისტი">
+                <p class="roleP2">აფერისტი</p>
+            </div>
+            <div class="newRole" data-role="ქურდი">
+                <p class="roleP2">ქურდი</p>
+            </div>
+            <div class="role">
+                <p class="roleP2">მალე დაემატება...</p>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,136 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.roles{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.role{
+    margin-bottom: 0.6rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: rgb(30, 30, 30);
+}
+
+.role:last-child{
+    margin-bottom: 0.8rem;
+}
+
+.role p{
+    width: 60%;
+    text-align: center;
+}
+
+.role input{
+    width: 20%;
+    height: 60%;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.role input:focus{
+    outline-color: black;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.addRole{
+    margin-bottom: 0.4rem;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 90%;
+    height: 10vh;
+    background-color: rgb(30, 30, 30);
+    transition: 0.4s;
+}
+
+.addRole:active{
+    background-color: rgb(40, 40, 40);
+}
+
+h2, h3{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card{
+    position: fixed;
+    width: 90%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.newRoles{
+    background-color: rgb(10, 10, 10);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.newRole{
+    margin-bottom: 0.6rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: rgb(30, 30, 30);
+}
+
+.newRole:active{
+    background-color: rgb(40, 40, 40);
+}
+
+.roleP2{
+    width: 60%;
+    text-align: center;
+}
